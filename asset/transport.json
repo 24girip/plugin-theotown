@@ -1,0 +1,95 @@
+[
+    {
+        "id": "ager.bus_sarbagita",
+        "type": "car",
+        "title": "Trans Sarbagita",
+        "template": "ager.template_bus",
+        "frames": [
+            {
+                "bmp": "sprites/global.png",
+                "x": 0,
+                "y": 0,
+                "count": 4,
+                "w": 19,
+                "h": 15
+            },
+            {
+                "bmp": "sprites/global.png",
+                "x": 76,
+                "y": 0,
+                "w": 20,
+                "h": 15
+            },
+            {
+                "bmp": "sprites/global.png",
+                "x": 96,
+                "y": 0,
+                "w": 10,
+                "h": 15
+            },
+            {
+                "bmp": "sprites/global.png",
+                "x": 106,
+                "y": 0,
+                "w": 20,
+                "h": 15
+            },
+            {
+                "bmp": "sprites/global.png",
+                "x": 126,
+                "y": 0,
+                "w": 10,
+                "h": 15
+            }
+        ],
+        "frames per variant": 8,
+        "v2": [0, 1, 0, 2, -1, 0, 1, 0]
+    },
+
+    {
+        "id": "ager.bus_tmd",
+        "type": "car",
+        "title": "Trans Metro Dewata",
+        "template": "ager.template_bus",
+        "frames": [
+            {
+                "bmp": "sprites/global.png",
+                "x": 0,
+                "y": 15,
+                "w": 19,
+                "h": 15,
+                "count": 4
+            },
+            {
+                "bmp": "sprites/global.png",
+                "x": 76,
+                "y": 15,
+                "w": 20,
+                "h": 15
+            },
+            {
+                "bmp": "sprites/global.png",
+                "x": 96,
+                "y": 15,
+                "w": 10,
+                "h": 15
+            },
+            {
+                "bmp": "sprites/global.png",
+                "x": 106,
+                "y": 15,
+                "w": 20,
+                "h": 15
+            },
+            {
+                "bmp": "sprites/global.png",
+                "x": 126,
+                "y": 15,
+                "w": 10,
+                "h": 15
+            }
+        ],
+        "frames per variant": 8,
+        "v2": [0, 1, 0, 2, -1, 0, 1, 0]
+    }
+]
