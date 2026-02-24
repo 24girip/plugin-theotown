@@ -1,1 +1,4 @@
-sprites/
+asset/sprites/
+*.manifest
+*.zip
+*.png
