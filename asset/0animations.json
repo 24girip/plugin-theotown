@@ -1,0 +1,46 @@
+[
+    {
+        "id": "ager.overlay_angkot",
+        "type": "animation",
+        "frames": [
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 132,
+                "y": 36,
+                "w": 11,
+                "h": 7,
+                "count": 4
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 176,
+                "y": 36,
+                "w": 11,
+                "h": 4
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 187,
+                "y": 36,
+                "w": 4,
+                "h": 6
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 191,
+                "y": 36,
+                "w": 11,
+                "h": 4
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 202,
+                "y": 36,
+                "w": 4,
+                "h": 6
+            }
+        ],
+        "frames per variant": 8,
+        "rotation aware": true
+    }
+]

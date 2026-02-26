@@ -1,15 +1,15 @@
 [
     {
-        "id": "ager.basic_bus_stop",
+        "id": "ager.invisible_bus_stop",
         "type": "bus stop",
-        "title": "Basic Bus Stop[in]Halte Sederhana",
-        "text": "Just a simple open bus stop denoted by the countless signs.[in]Sebuah halte sederhana di ruang terbuka yang ditandai banyak plang",
+        "title": "Invisible Bus Stop[in]Halte Tak Kasat Mata",
+        "text": "Modifiable with decorations.[in]Bisa dimodifikasi dengan dekorasi.",
         "height": 1,
         "width": 1,
 
         "frames": [
             {
-                "bmp": "sprites/global.png",
+                "bmp": "sprites/atlas0.png",
                 "x": 0,
                 "y": 30,
                 "w": 32,
@@ -17,9 +17,9 @@
                 "count": 4
             }
         ],
-        "price": 250,
-        "influence passenger bus": 20,
-        "capacity": 16,
+        "price": 800,
+        "influence passenger bus": 32,
+        "capacity": 32,
         "ordinal": 100,
         "meta": { "tags": { "default_busstop": {} } }
     },
@@ -33,7 +33,7 @@
 
         "frames": [
             {
-                "bmp": "sprites/global.png",
+                "bmp": "sprites/atlas0.png",
                 "x": 0,
                 "y": 62,
                 "w": 32,
@@ -41,9 +41,9 @@
                 "count": 4
             }
         ],
-        "price": 500,
+        "price": 800,
         "influence passenger bus": 30,
-        "capacity": 24,
+        "capacity": 32,
         "ordinal": 100,
         "meta": { "tags": { "default_busstop": {} } }
     }

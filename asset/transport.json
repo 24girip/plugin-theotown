@@ -6,7 +6,7 @@
         "template": "ager.template_bus",
         "frames": [
             {
-                "bmp": "sprites/global.png",
+                "bmp": "sprites/atlas0.png",
                 "x": 0,
                 "y": 0,
                 "count": 4,
@@ -14,38 +14,38 @@
                 "h": 15
             },
             {
-                "bmp": "sprites/global.png",
+                "bmp": "sprites/atlas0.png",
                 "x": 76,
                 "y": 0,
                 "w": 20,
-                "h": 15
+                "h": 11
             },
             {
-                "bmp": "sprites/global.png",
+                "bmp": "sprites/atlas0.png",
                 "x": 96,
                 "y": 0,
-                "w": 10,
-                "h": 15
+                "w": 8,
+                "h": 12
             },
             {
-                "bmp": "sprites/global.png",
-                "x": 106,
+                "bmp": "sprites/atlas0.png",
+                "x": 104,
                 "y": 0,
                 "w": 20,
-                "h": 15
+                "h": 11
             },
             {
-                "bmp": "sprites/global.png",
-                "x": 126,
+                "bmp": "sprites/atlas0.png",
+                "x": 124,
                 "y": 0,
-                "w": 10,
-                "h": 15
+                "w": 8,
+                "h": 12
             }
         ],
-        "frames per variant": 8,
-        "v2": [0, 1, 0, 2, -1, 0, 1, 0]
+        "v2": [0, 0, 0, 0, 0, 0, 0, 0],
+        "capacity": 40,
+        "speed": 1.5
     },
-
     {
         "id": "ager.bus_tmd",
         "type": "car",
@@ -53,7 +53,7 @@
         "template": "ager.template_bus",
         "frames": [
             {
-                "bmp": "sprites/global.png",
+                "bmp": "sprites/atlas0.png",
                 "x": 0,
                 "y": 15,
                 "w": 19,
@@ -61,35 +61,181 @@
                 "count": 4
             },
             {
-                "bmp": "sprites/global.png",
+                "bmp": "sprites/atlas0.png",
                 "x": 76,
                 "y": 15,
                 "w": 20,
-                "h": 15
+                "h": 11
             },
             {
-                "bmp": "sprites/global.png",
+                "bmp": "sprites/atlas0.png",
                 "x": 96,
                 "y": 15,
-                "w": 10,
-                "h": 15
+                "w": 8,
+                "h": 12
             },
             {
-                "bmp": "sprites/global.png",
-                "x": 106,
+                "bmp": "sprites/atlas0.png",
+                "x": 104,
                 "y": 15,
                 "w": 20,
-                "h": 15
+                "h": 11
             },
             {
-                "bmp": "sprites/global.png",
-                "x": 126,
+                "bmp": "sprites/atlas0.png",
+                "x": 124,
                 "y": 15,
                 "w": 10,
-                "h": 15
+                "h": 12
             }
         ],
-        "frames per variant": 8,
-        "v2": [0, 1, 0, 2, -1, 0, 1, 0]
+        "v2": [0, 0, 0, 0, 0, 0, 0, 0],
+        "capacity": 40,
+        "speed": 1.5
+    },
+    {
+        "id": "ager.bus_kalista",
+        "type": "car",
+        "title": "Kalista Electric Bus[in]Bus Listrik Kalista",
+        "template": "ager.template_bus",
+        "frames": [
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 132,
+                "y": 13,
+                "w": 18,
+                "h": 14,
+                "count": 4
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 204,
+                "y": 13,
+                "w": 18,
+                "h": 8
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 222,
+                "y": 13,
+                "w": 5,
+                "h": 11
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 227,
+                "y": 13,
+                "w": 18,
+                "h": 8
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 245,
+                "y": 13,
+                "w": 5,
+                "h": 11
+            }
+        ],
+        "v2": [0, 0, 0, 0, 0, 0, 0, 0],
+        "capacity": 30
+    },
+    {
+        "id": "ager.elf_damri",
+        "type": "car",
+        "title": "DAMRI ELF Transport[in]Angkutan Perintis DAMRI",
+        "template": "ager.template_bus",
+        "frames": [
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 132,
+                "y": 0,
+                "w": 16,
+                "h": 13,
+                "count": 4
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 196,
+                "y": 0,
+                "w": 16,
+                "h": 7
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 214,
+                "y": 0,
+                "w": 9,
+                "h": 11
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 223,
+                "y": 0,
+                "w": 16,
+                "h": 7
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 239,
+                "y": 0,
+                "w": 7,
+                "h": 11
+            }
+        ],
+        "v2": [0, 0, 0, 0, 0, 0, 0, 0],
+        "capacity": 20
+    },
+    {
+        "id": "ager.angkot",
+        "type": "car",
+        "title": "Angkot",
+        "template": "ager.template_bus",
+        "frames": [
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 132,
+                "y": 27,
+                "w": 11,
+                "h": 9,
+                "count": 4
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 176,
+                "y": 27,
+                "w": 11,
+                "h": 6
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 187,
+                "y": 27,
+                "w": 4,
+                "h": 8
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 191,
+                "y": 27,
+                "w": 11,
+                "h": 6
+            },
+            {
+                "bmp": "sprites/atlas0.png",
+                "x": 202,
+                "y": 27,
+                "w": 4,
+                "h": 8
+            }
+        ],
+        "animation": [
+            {
+                "id": "ager.overlay_angkot",
+                "move y": 2
+            }
+        ],
+        "v2": [0, 0, 0, 0, 0, 0, 0, 0],
+        "auto colorize": true,
+        "capacity": 10
     }
 ]

@@ -1,10 +1,7 @@
 [
     {
         "id": "ager.template_bus",
-        "ordinal": 0,
         "type": "template",
-        "capacity": 40,
-        "speed": 1,
         "flag normal": false,
         "flag bus": true,
         "meta": {
@@ -12,6 +9,7 @@
                 "ts_normal_bus": {}
             }
         },
+        "frames per variant": 8,
         "chargeable": false
     }
 ]
